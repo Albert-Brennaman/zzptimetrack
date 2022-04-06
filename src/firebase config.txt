@@ -1,0 +1,18 @@
+// Import the functions you need from the SDKs you need
+import { initializeApp } from "firebase/app";
+// TODO: Add SDKs for Firebase products that you want to use
+// https://firebase.google.com/docs/web/setup#available-libraries
+
+// Your web app's Firebase configuration
+const firebaseConfig = {
+  apiKey: "AIzaSyAiPl9uqtW7Ci-ss4qhrXAN0Lo1tckbPrU",
+  authDomain: "zzp-timetracker.firebaseapp.com",
+  projectId: "zzp-timetracker",
+  storageBucket: "zzp-timetracker.appspot.com",
+  messagingSenderId: "752930405047",
+  appId: "1:752930405047:web:5d8a8136e4cdfc26bceb32"
+};
+
+// Initialize Firebase
+const app = initializeApp(firebaseConfig);
+

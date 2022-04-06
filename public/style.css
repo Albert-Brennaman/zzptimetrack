@@ -1,0 +1,169 @@
+body{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.appcontainer {
+    background-color: lightgray;
+    padding: 20px;
+    min-height: 100vh;
+}
+
+.timerecord-input {
+    background-color: white;
+    max-width: 30%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: inset 0 0 2px #e3e8ee;
+}
+
+.form__items__firstrow,
+.form__items__secondrow {
+    display: flex;
+    width: 100%
+}
+
+.form__item{
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    padding: 5px 2px;
+}
+
+.form__item__date{
+    width: 80px;
+}
+
+.form__item__date input,
+.form__item__time input,
+.form__item__location input,
+.form__item__customer input{
+    border: 2px solid grey;
+    border-radius: 2px;
+    font-size: 14px;
+    line-height: 22px;
+}
+
+.form__item__time {
+    width: 45px;
+}
+
+.form__item__location {
+    width: 80px;
+}
+
+.form__item__workdescription {
+    width: 447px;
+}
+
+.form__item__workdescription textarea {
+    padding: 0;
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size: 14px;
+    line-height: 22px;
+    border: 2px solid grey;
+    border-radius: 2px;
+}
+
+input[type="submit"] {
+    background-color: rgb(84, 105, 212);
+    border-radius: 5px;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    padding: 10px 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.timerecords-table {
+    background-color: chartreuse;
+}
+
+.table{
+    margin-top: 30px;
+    padding: 5px 20px;
+    display: flex;
+    justify-content: flex-start;
+    background-color: #FFFFFF;
+}
+
+.timerecords__summarized{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+    width: 80%;
+    border-radius: 5px 5px 0 0;
+    overflow: hidden;
+}
+
+.timerecords__summarized thead tr{
+    background-color: #10162F;
+    color: white;
+    text-align: left;
+    font-weight: bold;
+}
+
+.timerecords__summarized th,
+.timerecords__summarized td{
+    padding: 12px 15px;
+}
+
+.timerecords__summarized tbody tr{
+    border-bottom: 1px solid #DDDDDD;
+}
+
+.timerecords__summarized tbody tr:nth-of-type(even){
+    background-color: #F3F3F3;
+}
+
+.timerecords__summarized tbody tr:last-of-type{
+    border-bottom: 2px solid #1C658C;
+}
+
+.timerecords__summarized tbody tr.active-row {
+    font-weight: bold;
+    color: #1C658C
+}
+
+.accordion__content--closed{
+    display: none;
+    height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transition: opacity 1s ease-out;
+}
+
+.accordion__content--open{
+    height: auto;
+    opacity: 1;
+}
+
+.timerecords__details{
+    width: 100%;
+}
+
+.timerecords__details thead tr{
+    background-color: #398AB9;
+    text-align: left;
+    font-weight: bold;
+}
+
+.timerecords__details th,
+.timerecords__details td{
+    padding: 6px 7px;
+    border-bottom: 1px solid #000000;
+}
+
+.workdescription-textarea{
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;;
+    padding: 0;
+    margin: 0;
+}
+
+.timerecords__details tbody tr{
+    border-bottom: 1px solid #000000;
+}
+

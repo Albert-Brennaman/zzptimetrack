@@ -1,0 +1,83 @@
+/*
+                            <tr className="accordion">
+                            <td><button type="button" className="accordion__button">Collapse</button></td>
+                            <td>05/03/2022</td>
+                                <td>08h30m</td>
+                                <td>510,00</td>
+                            </tr>
+                            <tr className="accordion__content--closed">
+                            <td colSpan="4">
+                            <table className="timerecords__details">
+                            <thead>
+                            <tr>
+                            <th>From</th>
+                            <th>Until</th>
+                            <th>Duration</th>
+                            <th>Work description</th>
+                            <th>Location</th>
+                            </tr>
+                            </thead>
+                            <tbody>
+                            <tr>
+                                                <td>08:30</td>
+                                                <td>10:50</td>
+                                                <td>02h20m</td>
+                                                <td>Testen testversie</td>
+                                                <td>Home</td>
+                                                </tr>
+                                                <tr>
+                                                <td>11:00</td>
+                                                <td>17:10</td>
+                                                <td>06h10m</td>
+                                                <td>Testen testversie</td>
+                                                <td>Home</td>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+                                                </td>
+                            </tr>
+                            <tr className="accordion">
+                                <td><button type="button" className="accordion__button">Collapse</button></td>
+                                <td>06/03/2022</td>
+                                <td>07h45m</td>
+                                <td>465,00</td>
+                                </tr>
+                                <tr className="accordion__content--closed">
+                                <td colSpan="4">
+                                <table className="timerecords__details">
+                                <thead>
+                                            <tr>
+                                                <th>From</th>
+                                                <th>Until</th>
+                                                <th>Duration</th>
+                                                <th>Work description</th>
+                                                <th>Location</th>
+                                                </tr>
+                                                </thead>
+                                                <tbody>
+                                            <tr>
+                                            <td>08:30</td>
+                                            <td>10:50</td>
+                                            <td>02h20m</td>
+                                            <td>Testen testversie</td>
+                                            <td>Home</td>
+                                            </tr>
+                                            <tr>
+                                                <td>11:00</td>
+                                                <td>14:50</td>
+                                                <td>03h50m</td>
+                                                <td>Testen testversie</td>
+                                                <td>Home</td>
+                                                </tr>
+                                                <tr>
+                                                <td>15:00</td>
+                                                <td>16:35</td>
+                                                <td>01h35m</td>
+                                                <td>Testen testversie</td>
+                                                <td>Home</td>
+                                                </tr>
+                                                </tbody>
+                                                </table>
+                                                </td>
+                                                </tr>
+                            */
